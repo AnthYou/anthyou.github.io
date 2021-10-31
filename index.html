@@ -5,12 +5,216 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Anthony You</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
-  <p>Hello, World!</p>
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#top">Anthony You</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#professional">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <div class="container">    
+    <section>
+      <img src="/images/lw-pitch-alt.png" alt="Me pitching Escapades at Le Wagon Demoday" class="banner">
+      <h1>Hello, you.</h1>
+    </section>
+    
+    <section id="about">
+      <h2>About</h2>
+      <p>I'm Anthony, a full stack web & iOS developer in Paris, France.</p>
+      <p>After a first career in product marketing, I decided to switch paths to bring my creativity and my love for pixel-perfect designs by studying web and mobile development.</p>
+      <p>I can help you develop your application from scratch according to your needs, create a prototype on Figma and bring it to life as an MVP using the TDD methodology, whether it is a web application or an iOS application, or an API on Ruby on Rails.</p>
+      <p>If you're looking for a tech profile that understands your business challenges, feel free to <a href="mailto:you.anthony@yahoo.com">contact me</a>!</p>
+    </section>
 
-  <script src="js/script.js"></script>
+    <section id="skills">
+      <h2>Skills</h2>
+
+      <div class="grid">
+        <div>
+          <h3>Programming languages</h3>
+          <ul class="list-group">
+            <li>Ruby</li>
+            <li>Swift</li>        
+            <li>JavaScript ES6</li>        
+            <li>HTML5</li>        
+            <li>CSS3</li>
+          </ul>
+        </div>
+  
+        <div>
+          <h3>Frameworks</h3>
+          <ul class="list-group">
+            <li>Ruby on Rails</li>
+            <li>SwiftUI</li>        
+            <li>Express.js</li>        
+            <li>React.js</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Testing</h3>
+          <ul class="list-group">
+            <li>RSpec</li>
+          </ul>
+        </div>
+        
+        <div>
+          <h3>Databases</h3>
+          <ul class="list-group">
+            <li>PostgreSQL</li>
+            <li>MongoDB</li>        
+          </ul>
+        </div>
+      
+        <div>
+          <h3>Others</h3>
+          <ul class="list-group">
+            <li>Bootstrap</li>
+            <li>Figma</li>        
+            <li>Git</li>
+            <li>Heroku</li>
+          </ul>
+        </div>
+        
+        <div>
+          <h3>Languages</h3>
+          <ul class="list-group">
+            <li>French</li>
+            <li>English</li>        
+            <li>Spanish</li>        
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio">
+      <h2>Portfolio</h2>
+
+      <h3>Cosmeet</h3>
+      <p>Astrology-based dating application.</p>
+      <ul class="list-group mb-5">
+        <li>Mobile: SwiftUI</li>
+        <li>Back-end API: Ruby on Rails</li>
+        <li>Database: PostgreSQL</li>
+      </ul>
+
+      <br>
+
+      <h3>The French Cloud</h3>
+      <p>Subscription-based French lessons.</p>
+      <ul class="list-group mb-5">
+        <li>Framework: Ruby on Rails</li>
+        <li>Database: PostgreSQL</li>
+        <li>Payments: Stripe</li>
+        <li>Transactional emails: Postmark</li>
+      </ul>
+      <br>
+
+      <h3>Escapades</h3>
+      <p>Social network for solo travellers.</p>
+      <iframe src="https://www.youtube.com/embed/aT0f6nlB9rA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <ul class="list-group mt-4">
+        <li>Framework: Ruby on Rails</li>
+        <li>Database: PostgreSQL</li>
+      </ul>
+
+      <p class="mt-5">All these apps were made from scratch, from the prototype to deployment and updates.</p>
+      <ul class="list-group">
+        <li>User stories definition</li>
+        <li>UX & UI definition with Figma</li>
+        <li>Database definition</li>
+        <li>Features implementation</li>
+        <li>Unit testing with RSpec</li>
+        <li>Deployment on Heroku</li>
+        <li>Updates and maintenance</li>
+      </ul>
+    </section>
+    
+    <section id="education">
+      <h2>Education</h2>
+      
+      <h3>Le Wagon, 2020</h3>
+      <h4>Full Stack Web Development</h4>
+      <p>Attended Le Wagon Paris (Batch #440).
+        9-week intensive coding bootcamp learning HTML, CSS, Bootstrap, JavaScript ES2015, SQL, git, GitHub, Heroku, Stripe and Ruby on Rails.
+        Designed, implemented and shipped to production a clone of AirBnB and a Rails prototype of <a href="https://escpdes.herokuapp.com/">Escapades</a>, a travellers social network.</p>
+
+      <br>
+
+      <h3>Grenoble Ecole de Management, 2014-2018</h3>
+      <h4>Master of Science in Management</h4>
+      <p>French 'Grandes Ecoles' Ranking: <br>
+        Top #6 Le Parisien, Le Point, L'Etudiant, Le Figaro <br>
+        Final thesis: 'The business of esports: new eldorado of investors?'</p>
+      
+      <br>
+
+      <h3>Lycée Aliénor d'Aquitaine, 2012-2014</h3>
+      <h4>Classe préparatoire aux Grandes Ecoles</h4>
+      <p>2-year university programme dedicated to the preparation of the competitive entrance examinations for French Graduate Schools. <br>
+      Major in Economics.</p>
+    </section>
+    
+    <section id="professional">
+      <h2>Professional background</h2>
+      
+      <h3>Anthony You, 2020-present</h3>
+      <h4>Freelance Web & iOS Developer</h4>
+
+      <br>
+
+      <h3>Le Wagon, 2020-2021</h3>
+      <h4>Teacher Assistant</h4>
+
+      <br>
+      
+      <h3>Acer Computer France, 2018-2020</h3>
+      <h4>Product Manager, PC, Chromebooks, Accessories</h4>
+
+      <br>
+
+      <h3>Ubisoft France, 2017-2018</h3>
+      <h4>Brand Manager Assistant</h4>
+    </section>
+    
+    <section id="contact">
+      <h2>Contact</h2>
+      <a href="mailto:you.anthony@yahoo.com">Email</a>
+      <a href="https://www.linkedin.com/in/youanthony/">LinkedIn</a>
+      <a href="https://github.com/AnthYou">GitHub</a>
+    </section>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+  </div>
 </body>
 </html>
