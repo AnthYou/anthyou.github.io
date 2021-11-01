@@ -40,6 +40,14 @@ img.banner {
   filter: grayscale(50%);
 }
 
+img {
+  transition: opacity 200ms ease;
+}
+
+img:hover {
+  opacity: 0.6;
+}
+
 .mockup {
   width: 100%;
 }
